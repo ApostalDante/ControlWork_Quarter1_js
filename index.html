@@ -17,17 +17,22 @@
         <main class="main border">
             <h1>Добавляет значения в массив</h1>
             <div class="main_input">
-                <div class="main_input__input"> <input placeholder="введите значение" type="text"></div>
-                <div class="main_input__button"> <button>Добавить</button></div>
+                <div class="main_input__input"> <input id="inputForm" placeholder="введите значение" type="text"></div>
+                <div class="main_input__button"> <button onclick="pushArrInfo()">Добавить</button></div>
             </div>
-            <div class="main_button"> <button class="main_button__button">Показать введённые значения</button> </div>
+            <div class="main_button"> <button onclick="showСontentArr()" class="main_button__button">Показать введённые
+                    значения</button> </div>
+            <div class="main_button"> <button onclick="clearArr()" class="main_button__button">Очистить
+                    массив</button> </div>
             <div class="main_text">
-                <p class="main_text__text">результат</p>
+                <p id="outShowСontentArr" class="main_text__text">результат</p>
             </div>
-            <div class="main_button"> <button class="main_button__button">Показать значения меньше 4 символов</button>
+            <div class="main_button"> <button onclick="showСontentArrResult()" class="main_button__button">Показать
+                    значения
+                    меньше 4 символов</button>
             </div>
             <div class="main_text">
-                <p class="main_text__text">результат</p>
+                <p id="outShowСontentArrResult" class="main_text__text">результат</p>
             </div>
         </main>
         <footer class="footer">
