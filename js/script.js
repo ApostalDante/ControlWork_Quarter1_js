@@ -11,11 +11,11 @@ function pushArrInfo() {
 
 function showСontentArr() {
     document.getElementById('outShowСontentArr').innerHTML = arrForm;
-};
+}
 
 
 
-function min3SimvolArr() {
+function min3SimvolArrFind() {
     arrForm.forEach(item => {
         if (item.length <= 3) resultArr.push(item)
     });
@@ -24,10 +24,9 @@ function min3SimvolArr() {
 
 function showСontentArrResult() {
     resultArr = [];
-    min3SimvolArr();
+    min3SimvolArrFind();
     document.getElementById('outShowСontentArrResult').innerHTML = resultArr;
-    console.log(resultArr);
-};
+}
 
 function clearArr() {
     arrForm.length = 0;

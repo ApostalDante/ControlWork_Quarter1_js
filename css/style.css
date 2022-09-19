@@ -211,10 +211,8 @@ body {
 .footer {}
 
 .footer_img {
-    /*width: 1000px;*/
-    width: 62.5rem;
-    /*height: 600px;*/
-    height: 37.5rem;
+    width: 99;
+    height: 99%;
 }
 
 .footer_link {
